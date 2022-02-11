@@ -1,0 +1,21 @@
+{
+  "name": "quick-code-api",
+  "version": "1.0.0",
+  "description": "an online personal cheatsheet maker",
+  "main": "server.js",
+  "author": "devocoe",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12"
+  }
+}
